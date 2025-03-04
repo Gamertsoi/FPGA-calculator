@@ -1,0 +1,1002 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.1 (64-bit)
+# SW Build 5094488 on Fri Jun 14 08:59:21 MDT 2024
+# IP Build 5091682 on Fri Jun 14 16:55:04 MDT 2024
+# SharedData Build 5094118 on Fri Jun 14 01:09:43 MDT 2024
+# Start of session at: Mon Dec 16 23:11:33 2024
+# Process ID: 22020
+# Current directory: C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22992 C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.xpr
+# Log file: C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/vivado.log
+# Journal file: C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final\vivado.jou
+# Running On        :Perry-Laptop
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2803 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16861 MB
+# Swap memory       :16861 MB
+# Total Virtual     :33722 MB
+# Available Virtual :18476 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/kmtsoiac/project_4' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Perry/Downloads/ELEC4320/Desktop/sine_values.coe', nor could it be found using path 'C:/Users/kmtsoiac/Desktop/sine_values.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Perry/Downloads/ELEC4320/Desktop/naturallogvalue.coe', nor could it be found using path 'C:/Users/kmtsoiac/Desktop/naturallogvalue.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem_gen_0' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'blk_mem_gen_0' (customized with software release 2022.1.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem_gen_1' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'blk_mem_gen_1' (customized with software release 2022.1.1) has a different revision in the IP Catalog.
+INFO: [Project 1-230] Project 'project_4.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1539.449 ; gain = 384.926
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip -srcset blk_mem_gen_0 [get_ips  {blk_mem_gen_0 blk_mem_gen_1}] -log ip_upgrade.log
+Upgrading 'blk_mem_gen_0'
+INFO: [Project 1-386] Moving file 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' from fileset 'blk_mem_gen_0' to fileset 'sources_1'.
+WARNING: [IP_Flow 19-4050] The normal upgrade process failed due to validation failures in the given configuration. Attempting partial upgrade to set as many user parameters as possible. Please check the parameters whose values were not applied.
+WARNING: [IP_Flow 19-3932] Unable to set the value 'true' on parameter 'Load Init File' due to the following failure - 
+Validation failed for parameter 'Coe File(Coe_File)' with current value 'no_coe_file_loaded' for IP 'blk_mem_gen_0'. No COE file loaded
+. Restoring to an old valid value of 'false'
+INFO: [IP_Flow 19-3422] Upgraded blk_mem_gen_0 (Block Memory Generator 8.4) from revision 5 to revision 8
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'blk_mem_gen_0' has identified issues that may require user intervention. Please review the upgrade log 'c:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Upgrading 'blk_mem_gen_1'
+INFO: [Project 1-386] Moving file 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/ip/blk_mem_gen_1_2/blk_mem_gen_1.xci' from fileset 'blk_mem_gen_1' to fileset 'sources_1'.
+WARNING: [IP_Flow 19-4050] The normal upgrade process failed due to validation failures in the given configuration. Attempting partial upgrade to set as many user parameters as possible. Please check the parameters whose values were not applied.
+WARNING: [IP_Flow 19-3932] Unable to set the value 'true' on parameter 'Load Init File' due to the following failure - 
+Validation failed for parameter 'Coe File(Coe_File)' with current value 'no_coe_file_loaded' for IP 'blk_mem_gen_1'. No COE file loaded
+. Restoring to an old valid value of 'false'
+INFO: [IP_Flow 19-3422] Upgraded blk_mem_gen_1 (Block Memory Generator 8.4) from revision 5 to revision 8
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_1'...
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'blk_mem_gen_1' has identified issues that may require user intervention. Please review the upgrade log 'c:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1590.398 ; gain = 48.824
+export_ip_user_files -of_objects [get_ips {blk_mem_gen_0 blk_mem_gen_1}] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/adjust.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/adjust.v
+export_ip_user_files -of_objects  [get_files C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/decoder2.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/decoder2.v
+export_ip_user_files -of_objects  [get_files C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sin.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sin.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+generate_target all [get_files C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/ip/blk_mem_gen_1_2/blk_mem_gen_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_1'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_1'...
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/ip/blk_mem_gen_1_2/blk_mem_gen_1.xci]
+generate_target all [get_files C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+launch_runs blk_mem_gen_0_synth_1 blk_mem_gen_1_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log_bram.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\log.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+[Mon Dec 16 23:22:11 2024] Launched blk_mem_gen_0_synth_1, blk_mem_gen_1_synth_1...
+Run output will be captured here:
+blk_mem_gen_0_synth_1: C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.runs/blk_mem_gen_0_synth_1/runme.log
+blk_mem_gen_1_synth_1: C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.runs/blk_mem_gen_1_synth_1/runme.log
+ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors.
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: countertest
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Device 21-9227] Part: xc7a35tcpg236-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22668
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2426.332 ; gain = 438.914
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'countertest' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v:23]
+INFO: [Synth 8-6157] synthesizing module 'counter_normal' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'counter_normal' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clockdivider' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/clockdividermodule.v:23]
+	Parameter n bound to: 5000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clockdivider' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/clockdividermodule.v:23]
+INFO: [Synth 8-6157] synthesizing module 'count_refresh' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/count_refresh.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'count_refresh' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/count_refresh.v:22]
+INFO: [Synth 8-6157] synthesizing module 'counter_restricted' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/counter_restricted.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'counter_restricted' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/counter_restricted.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'num1' does not match port width (1) of module 'counter_restricted' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v:60]
+WARNING: [Synth 8-689] width (4) of port connection 'num2' does not match port width (1) of module 'counter_restricted' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v:60]
+INFO: [Synth 8-6157] synthesizing module 'anode_control' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/anode_control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'anode_control' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/anode_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'write_data' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:23]
+INFO: [Synth 8-6157] synthesizing module 'addition' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/addition.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'addition' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/addition.v:24]
+WARNING: [Synth 8-689] width (10) of port connection 'a' does not match port width (20) of module 'addition' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:40]
+WARNING: [Synth 8-689] width (10) of port connection 'b' does not match port width (20) of module 'addition' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:40]
+INFO: [Synth 8-6157] synthesizing module 'sub' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/imports/kmtsoiac/Downloads/subtraction.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'sub' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/imports/kmtsoiac/Downloads/subtraction.v:22]
+WARNING: [Synth 8-689] width (10) of port connection 'a' does not match port width (20) of module 'sub' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:41]
+WARNING: [Synth 8-689] width (10) of port connection 'b' does not match port width (20) of module 'sub' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:41]
+INFO: [Synth 8-6157] synthesizing module 'mul' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/imports/kmtsoiac/Downloads/multiplication.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'mul' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/imports/kmtsoiac/Downloads/multiplication.v:22]
+WARNING: [Synth 8-689] width (10) of port connection 'a' does not match port width (20) of module 'mul' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:42]
+WARNING: [Synth 8-689] width (10) of port connection 'b' does not match port width (20) of module 'mul' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:42]
+INFO: [Synth 8-6157] synthesizing module 'division' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/division.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'division' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/division.v:23]
+WARNING: [Synth 8-689] width (10) of port connection 'a' does not match port width (33) of module 'division' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:43]
+WARNING: [Synth 8-689] width (10) of port connection 'b' does not match port width (33) of module 'division' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:43]
+INFO: [Synth 8-6157] synthesizing module 'sine' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sine_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/.Xil/Vivado-22020-Perry-Laptop/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/.Xil/Vivado-22020-Perry-Laptop/realtime/blk_mem_gen_0_stub.v:6]
+WARNING: [Synth 8-689] width (33) of port connection 'addra' does not match port width (7) of module 'blk_mem_gen_0' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:33]
+WARNING: [Synth 8-689] width (33) of port connection 'douta' does not match port width (20) of module 'blk_mem_gen_0' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'sine_bram' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:23]
+WARNING: [Synth 8-689] width (20) of port connection 'a' does not match port width (33) of module 'sine_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v:34]
+WARNING: [Synth 8-689] width (20) of port connection 'value' does not match port width (33) of module 'sine_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'sine' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'x' does not match port width (20) of module 'sine' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:44]
+INFO: [Synth 8-6157] synthesizing module 'cos' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'a' does not match port width (33) of module 'sine_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v:33]
+WARNING: [Synth 8-689] width (20) of port connection 'value' does not match port width (33) of module 'sine_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'cos' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'x' does not match port width (20) of module 'cos' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:45]
+INFO: [Synth 8-6157] synthesizing module 'log' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v:23]
+INFO: [Synth 8-6157] synthesizing module 'log_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log_bram.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/.Xil/Vivado-22020-Perry-Laptop/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/.Xil/Vivado-22020-Perry-Laptop/realtime/blk_mem_gen_1_stub.v:6]
+WARNING: [Synth 8-689] width (20) of port connection 'addra' does not match port width (10) of module 'blk_mem_gen_1' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log_bram.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'log_bram' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log_bram.v:23]
+WARNING: [Synth 8-689] width (20) of port connection 'a' does not match port width (33) of module 'division' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v:41]
+WARNING: [Synth 8-689] width (20) of port connection 'b' does not match port width (33) of module 'division' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'log' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v:23]
+WARNING: [Synth 8-689] width (10) of port connection 'x0' does not match port width (20) of module 'log' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:46]
+WARNING: [Synth 8-689] width (10) of port connection 'x1' does not match port width (20) of module 'log' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'write_data' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:23]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/converter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/converter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'operationsaddress' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/operationsaddress.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'operationsaddress' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/operationsaddress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'encoder' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/converter2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'encoder' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/converter2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bcd_control' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:23]
+WARNING: [Synth 8-567] referenced signal 'out0' should be on the sensitivity list [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:24]
+WARNING: [Synth 8-567] referenced signal 'out1' should be on the sensitivity list [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:24]
+WARNING: [Synth 8-567] referenced signal 'out2' should be on the sensitivity list [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:24]
+WARNING: [Synth 8-567] referenced signal 'out3' should be on the sensitivity list [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'bcd_control' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sdcc' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'sdcc' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'countertest' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v:23]
+WARNING: [Synth 8-3848] Net sign_data[6] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:34]
+WARNING: [Synth 8-3848] Net sign_data[8] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:34]
+WARNING: [Synth 8-3848] Net sign_data[9] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:34]
+WARNING: [Synth 8-3848] Net sign_data[10] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:34]
+WARNING: [Synth 8-3848] Net sign_data[11] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:34]
+WARNING: [Synth 8-3848] Net bram_data[6] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:32]
+WARNING: [Synth 8-3848] Net bram_data[8] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:32]
+WARNING: [Synth 8-3848] Net bram_data[9] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:32]
+WARNING: [Synth 8-3848] Net bram_data[10] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:32]
+WARNING: [Synth 8-3848] Net bram_data[11] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:32]
+WARNING: [Synth 8-3848] Net exp_data[6] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:36]
+WARNING: [Synth 8-3848] Net exp_data[8] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:36]
+WARNING: [Synth 8-3848] Net exp_data[9] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:36]
+WARNING: [Synth 8-3848] Net exp_data[10] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:36]
+WARNING: [Synth 8-3848] Net exp_data[11] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:36]
+WARNING: [Synth 8-7129] Port a0[3] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a0[2] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a0[1] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b0[3] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b0[2] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b0[1] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[19] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[18] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[17] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[16] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[15] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[14] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[13] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[12] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[32] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[31] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[30] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[29] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[28] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[27] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[26] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[25] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[24] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[23] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[22] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[21] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[20] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[19] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[18] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[17] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[16] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[15] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[14] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[13] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[12] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[9] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[8] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[7] in module sine_bram is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2546.180 ; gain = 558.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2546.180 ; gain = 558.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2546.180 ; gain = 558.762
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'wd/sin/sb/BRAMROM'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.gen/sources_1/ip/blk_mem_gen_1_2/blk_mem_gen_1.dcp' for cell 'wd/log/logbraminst1/BRAMROM'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 2546.996 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/constrs_1/new/constr.xdc]
+Finished Parsing XDC File [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/constrs_1/new/constr.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2629.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2654.520 ; gain = 667.102
+59 Infos, 84 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 2654.520 ; gain = 1052.547
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: countertest
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2668.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'countertest' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v:23]
+INFO: [Synth 8-6157] synthesizing module 'counter_normal' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'counter_normal' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clockdivider' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/clockdividermodule.v:23]
+	Parameter n bound to: 5000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clockdivider' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/clockdividermodule.v:23]
+INFO: [Synth 8-6157] synthesizing module 'count_refresh' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/count_refresh.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'count_refresh' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/count_refresh.v:22]
+INFO: [Synth 8-6157] synthesizing module 'counter_restricted' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/counter_restricted.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'counter_restricted' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/counter_restricted.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'num1' does not match port width (1) of module 'counter_restricted' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v:60]
+WARNING: [Synth 8-689] width (4) of port connection 'num2' does not match port width (1) of module 'counter_restricted' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v:60]
+INFO: [Synth 8-6157] synthesizing module 'anode_control' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/anode_control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'anode_control' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/anode_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'write_data' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:23]
+INFO: [Synth 8-6157] synthesizing module 'addition' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/addition.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'addition' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/addition.v:24]
+WARNING: [Synth 8-689] width (10) of port connection 'a' does not match port width (20) of module 'addition' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:40]
+WARNING: [Synth 8-689] width (10) of port connection 'b' does not match port width (20) of module 'addition' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:40]
+INFO: [Synth 8-6157] synthesizing module 'sub' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/imports/kmtsoiac/Downloads/subtraction.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'sub' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/imports/kmtsoiac/Downloads/subtraction.v:22]
+WARNING: [Synth 8-689] width (10) of port connection 'a' does not match port width (20) of module 'sub' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:41]
+WARNING: [Synth 8-689] width (10) of port connection 'b' does not match port width (20) of module 'sub' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:41]
+INFO: [Synth 8-6157] synthesizing module 'mul' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/imports/kmtsoiac/Downloads/multiplication.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'mul' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/imports/kmtsoiac/Downloads/multiplication.v:22]
+WARNING: [Synth 8-689] width (10) of port connection 'a' does not match port width (20) of module 'mul' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:42]
+WARNING: [Synth 8-689] width (10) of port connection 'b' does not match port width (20) of module 'mul' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:42]
+INFO: [Synth 8-6157] synthesizing module 'division' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/division.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'division' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/division.v:23]
+WARNING: [Synth 8-689] width (10) of port connection 'a' does not match port width (33) of module 'division' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:43]
+WARNING: [Synth 8-689] width (10) of port connection 'b' does not match port width (33) of module 'division' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:43]
+INFO: [Synth 8-6157] synthesizing module 'sine' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sine_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/.Xil/Vivado-22020-Perry-Laptop/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/.Xil/Vivado-22020-Perry-Laptop/realtime/blk_mem_gen_0_stub.v:6]
+WARNING: [Synth 8-689] width (33) of port connection 'addra' does not match port width (7) of module 'blk_mem_gen_0' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:33]
+WARNING: [Synth 8-689] width (33) of port connection 'douta' does not match port width (20) of module 'blk_mem_gen_0' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'sine_bram' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:23]
+WARNING: [Synth 8-689] width (20) of port connection 'a' does not match port width (33) of module 'sine_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v:34]
+WARNING: [Synth 8-689] width (20) of port connection 'value' does not match port width (33) of module 'sine_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'sine' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'x' does not match port width (20) of module 'sine' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:44]
+INFO: [Synth 8-6157] synthesizing module 'cos' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'a' does not match port width (33) of module 'sine_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v:33]
+WARNING: [Synth 8-689] width (20) of port connection 'value' does not match port width (33) of module 'sine_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'cos' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'x' does not match port width (20) of module 'cos' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:45]
+INFO: [Synth 8-6157] synthesizing module 'log' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v:23]
+INFO: [Synth 8-6157] synthesizing module 'log_bram' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log_bram.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/.Xil/Vivado-22020-Perry-Laptop/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/.Xil/Vivado-22020-Perry-Laptop/realtime/blk_mem_gen_1_stub.v:6]
+WARNING: [Synth 8-689] width (20) of port connection 'addra' does not match port width (10) of module 'blk_mem_gen_1' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log_bram.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'log_bram' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log_bram.v:23]
+WARNING: [Synth 8-689] width (20) of port connection 'a' does not match port width (33) of module 'division' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v:41]
+WARNING: [Synth 8-689] width (20) of port connection 'b' does not match port width (33) of module 'division' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'log' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v:23]
+WARNING: [Synth 8-689] width (10) of port connection 'x0' does not match port width (20) of module 'log' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:46]
+WARNING: [Synth 8-689] width (10) of port connection 'x1' does not match port width (20) of module 'log' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'write_data' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:23]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/converter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/converter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'operationsaddress' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/operationsaddress.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'operationsaddress' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/operationsaddress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'encoder' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/converter2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'encoder' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/converter2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bcd_control' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:23]
+WARNING: [Synth 8-567] referenced signal 'out0' should be on the sensitivity list [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:24]
+WARNING: [Synth 8-567] referenced signal 'out1' should be on the sensitivity list [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:24]
+WARNING: [Synth 8-567] referenced signal 'out2' should be on the sensitivity list [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:24]
+WARNING: [Synth 8-567] referenced signal 'out3' should be on the sensitivity list [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'bcd_control' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sdcc' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'sdcc' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'countertest' (0#1) [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v:23]
+WARNING: [Synth 8-3848] Net sign_data[6] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:34]
+WARNING: [Synth 8-3848] Net sign_data[8] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:34]
+WARNING: [Synth 8-3848] Net sign_data[9] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:34]
+WARNING: [Synth 8-3848] Net sign_data[10] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:34]
+WARNING: [Synth 8-3848] Net sign_data[11] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:34]
+WARNING: [Synth 8-3848] Net bram_data[6] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:32]
+WARNING: [Synth 8-3848] Net bram_data[8] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:32]
+WARNING: [Synth 8-3848] Net bram_data[9] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:32]
+WARNING: [Synth 8-3848] Net bram_data[10] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:32]
+WARNING: [Synth 8-3848] Net bram_data[11] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:32]
+WARNING: [Synth 8-3848] Net exp_data[6] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:36]
+WARNING: [Synth 8-3848] Net exp_data[8] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:36]
+WARNING: [Synth 8-3848] Net exp_data[9] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:36]
+WARNING: [Synth 8-3848] Net exp_data[10] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:36]
+WARNING: [Synth 8-3848] Net exp_data[11] in module/entity write_data does not have driver. [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:36]
+WARNING: [Synth 8-7129] Port a0[3] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a0[2] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a0[1] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b0[3] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b0[2] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b0[1] in module decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[19] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[18] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[17] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[16] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[15] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[14] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[13] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[12] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module log_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[32] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[31] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[30] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[29] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[28] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[27] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[26] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[25] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[24] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[23] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[22] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[21] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[20] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[19] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[18] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[17] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[16] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[15] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[14] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[13] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[12] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[9] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[8] in module sine_bram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[7] in module sine_bram is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2668.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2668.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2668.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'wd/sin/sb/BRAMROM'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.gen/sources_1/ip/blk_mem_gen_1_2/blk_mem_gen_1.dcp' for cell 'wd/log/logbraminst1/BRAMROM'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 2668.172 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/constrs_1/new/constr.xdc]
+Finished Parsing XDC File [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/constrs_1/new/constr.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2728.430 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 3237.074 ; gain = 568.902
+55 Infos, 84 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 3237.074 ; gain = 568.902
+write_schematic -format pdf -orientation portrait C:/Users/Perry/Downloads/ELEC4320/schematic.pdf
+C:/Users/Perry/Downloads/ELEC4320/schematic.pdf
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'countertest_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'countertest_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim/sine_values.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim/naturallogvalue.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim/sine_values.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim/naturallogvalue.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj countertest_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.gen/sources_1/ip/blk_mem_gen_1_2/sim/blk_mem_gen_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/addition.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addition
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/anode_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module anode_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdcc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/bcd_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/clockdividermodule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clockdivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/converter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/converter2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cos
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/count_refresh.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_refresh
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_normal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/counter_restricted.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_restricted
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module countertest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/division.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module division
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module log
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module log_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/imports/kmtsoiac/Downloads/multiplication.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/operationsaddress.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module operationsaddress
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sine_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/imports/kmtsoiac/Downloads/subtraction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sim_1/new/countertest_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module countertest_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot countertest_tb_behav xil_defaultlib.countertest_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot countertest_tb_behav xil_defaultlib.countertest_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 20 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:40]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 20 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:41]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 20 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:42]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 33 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:43]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 for port 'x' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:44]
+WARNING: [VRFC 10-3091] actual bit length 20 differs from formal bit length 33 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v:34]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 7 for port 'addra' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:33]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 20 for port 'douta' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:34]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 for port 'x' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:45]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 33 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v:33]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 20 for port 'x0' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:46]
+WARNING: [VRFC 10-3091] actual bit length 20 differs from formal bit length 10 for port 'addra' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log_bram.v:33]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'num1' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v:60]
+WARNING: [VRFC 10-3091] actual bit length 20 differs from formal bit length 33 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v:41]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clockdivider
+Compiling module xil_defaultlib.count_refresh
+Compiling module xil_defaultlib.counter_restricted
+Compiling module xil_defaultlib.counter_normal
+Compiling module xil_defaultlib.anode_control
+Compiling module xil_defaultlib.addition
+Compiling module xil_defaultlib.sub
+Compiling module xil_defaultlib.mul
+Compiling module xil_defaultlib.division
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.sine_bram
+Compiling module xil_defaultlib.sine
+Compiling module xil_defaultlib.cos
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_1
+Compiling module xil_defaultlib.log_bram
+Compiling module xil_defaultlib.log
+Compiling module xil_defaultlib.write_data
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.operationsaddress
+Compiling module xil_defaultlib.encoder
+Compiling module xil_defaultlib.bcd_control
+Compiling module xil_defaultlib.sdcc
+Compiling module xil_defaultlib.countertest_default
+Compiling module xil_defaultlib.countertest_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot countertest_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 3240.695 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "countertest_tb_behav -key {Behavioral:sim_1:Functional:countertest_tb} -tclbatch {countertest_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source countertest_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module countertest_tb.uut.wd.sin.sb.BRAMROM.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module countertest_tb.uut.wd.cos.sb.BRAMROM.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module countertest_tb.uut.wd.log.logbraminst1.BRAMROM.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module countertest_tb.uut.wd.log.logbraminst2.BRAMROM.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'countertest_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 3280.414 ; gain = 39.770
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+launch_simulation -mode post-synthesis -type functional
+Command: launch_simulation  -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'countertest_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/synth/func/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\bcd.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\bcd.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\bcd.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\bcd.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\bcd.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'wd/cos/sb/BRAMROM'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.gen/sources_1/ip/blk_mem_gen_1_2/blk_mem_gen_1.dcp' for cell 'wd/log/logbraminst1/BRAMROM'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.392 . Memory (MB): peak = 3280.414 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5078 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/constrs_1/new/constr.xdc]
+Finished Parsing XDC File [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/constrs_1/new/constr.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 3280.414 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 3280.414 ; gain = 0.000
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode funcsim -nolib -force -file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/synth/func/xsim/countertest_tb_func_synth.v"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/synth/func/xsim/countertest_tb_func_synth.v
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'countertest_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/synth/func/xsim/sine_values.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/synth/func/xsim/naturallogvalue.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/synth/func/xsim/sine_values.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/synth/func/xsim/naturallogvalue.coe'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/synth/func/xsim'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+"xvlog --incr --relax -prj countertest_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/synth/func/xsim/countertest_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addition
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1
+INFO: [VRFC 10-311] analyzing module clockdivider
+INFO: [VRFC 10-311] analyzing module cos
+INFO: [VRFC 10-311] analyzing module count_refresh
+INFO: [VRFC 10-311] analyzing module counter_normal
+INFO: [VRFC 10-311] analyzing module counter_normal_0
+INFO: [VRFC 10-311] analyzing module counter_normal_1
+INFO: [VRFC 10-311] analyzing module counter_restricted
+INFO: [VRFC 10-311] analyzing module countertest
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 3280.414 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.373 . Memory (MB): peak = 3280.414 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5078 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Constraints 18-4397] Generator change detected checking ShapeConfig Enum. shapeDB will be regenerated.
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 3280.414 ; gain = 0.000
+INFO: [Constraints 18-5435] Cannot read file, the software version for the checkpoint (2022.1.1.3557992) does not match the current software version (2024.1.1.5094488).
+  File : C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.runs/impl_1/countertest_routed/countertest.xbdc.
+Parsing XDC File [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.runs/impl_1/countertest_routed/countertest.xdc]
+Finished Parsing XDC File [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.runs/impl_1/countertest_routed/countertest.xdc]
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Reading placer database...
+Read Old Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 3280.414 ; gain = 0.000
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 3280.414 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 3280.414 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3280.414 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.196 . Memory (MB): peak = 3280.414 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3280.414 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3280.414 ; gain = 0.000
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 3280.414 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 3280.414 ; gain = 0.000
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'countertest_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'countertest_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim/sine_values.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim/naturallogvalue.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim/sine_values.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim/naturallogvalue.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\bcd.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\bcd.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\bcd.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\bcd.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\power.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\pow.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\decoder2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\bcd.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\sin.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\adjust.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Perry\Downloads\ELEC4320\ELEC4320Proj_13_Final\project_4.srcs\sources_1\new\encoder3.v:]
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj countertest_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot countertest_tb_behav xil_defaultlib.countertest_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot countertest_tb_behav xil_defaultlib.countertest_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 20 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:40]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 20 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:41]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 20 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:42]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 33 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:43]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 for port 'x' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:44]
+WARNING: [VRFC 10-3091] actual bit length 20 differs from formal bit length 33 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine.v:34]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 7 for port 'addra' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:33]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 20 for port 'douta' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/sine_bram.v:34]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 for port 'x' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:45]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 33 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/cos.v:33]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 20 for port 'x0' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/Write_data.v:46]
+WARNING: [VRFC 10-3091] actual bit length 20 differs from formal bit length 10 for port 'addra' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log_bram.v:33]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'num1' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/countertest.v:60]
+WARNING: [VRFC 10-3091] actual bit length 20 differs from formal bit length 33 for port 'a' [C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.srcs/sources_1/new/log.v:41]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Perry/Downloads/ELEC4320/ELEC4320Proj_13_Final/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "countertest_tb_behav -key {Behavioral:sim_1:Functional:countertest_tb} -tclbatch {countertest_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source countertest_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module countertest_tb.uut.wd.sin.sb.BRAMROM.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module countertest_tb.uut.wd.cos.sb.BRAMROM.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module countertest_tb.uut.wd.log.logbraminst1.BRAMROM.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module countertest_tb.uut.wd.log.logbraminst2.BRAMROM.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'countertest_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 3339.344 ; gain = 36.473
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 16 23:38:42 2024...
